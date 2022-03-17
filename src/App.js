@@ -9,7 +9,6 @@ function App() {
           <Route exact path="/" element={<Home/>}/>
           <Route exact path="Home" element={<Home/>}/>
           <Route exact path="Resume" element={<Resume/>}/>
-          <Route path="" element={<Navigate to="/Resume" />} />
         </Routes>
     </Router>
   );

@@ -23,9 +23,9 @@ class Profile extends Component{
     <Card className="shadow-lg text-center content-center" style ={{"color":"black", "background-color" : "whitesmoke" }}>
         <CardImg className ="card-img-top card-img" top width="100%" src='https://artsy-media-uploads.s3.amazonaws.com/eWNSo3QlSQwNuHxEpxapXQ%2FAstrology+thumb+800.jpg' alt="Card image cap" 
             style= {{"max-height":"20vh"}} />
-        <div className="card-img-overlay text-center content-center" style={{"padding":"0.2rem","margin":"auto" }}>
+        <div className="card-img-overlay text-center content-center" style={{"padding":"0.2rem","margin":"auto","z-index":"4" }}>
           <img className="image-rounded rounded-circle shadow-lg m-3 mt-5"  src ='https://scontent.fmnl3-4.fna.fbcdn.net/v/t1.6435-9/75340951_2674982262558939_5902432310598303744_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeFulKrA39Mkn_Ph_LM_EbStxJAIgeBs6brEkAiB4Gzpur1ALfApk-nuJ8oj4rnqik9KXIJAbK5JlDssk8tPsEO7&_nc_ohc=LqgF82_h9WAAX_OJct4&_nc_ht=scontent.fmnl3-4.fna&oh=00_AT_wf75ry_HeJjGwcPUDZS-WoUqlM2WgaK3eUj4Bj3nsdQ&oe=62532320' 
-            style= {{"max-height":"15vh"}}></img>
+            style= {{"max-height":"15vh","z-index" :"3"}}></img>
         </div>        
         <CardBody >
           <CardTitle style={{"font-size":"2rem"}}>

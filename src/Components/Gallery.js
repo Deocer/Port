@@ -25,7 +25,7 @@ class Gallery extends Component{
             name="WANDER"  
             description="Some quick example text to build on the card title and make up the bulk of the card’s content." 
             link ='http://g5wander.rf.gd/' 
-            img='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg'   />
+            img={require('./wander.png')}  />
 
 
         <ProjectCard
@@ -39,7 +39,7 @@ class Gallery extends Component{
           name="BOOKFLIX"  
           description="Some quick example text to build on the card title and make up the bulk of the card’s content." 
           link ='http://g5wander.rf.gd/' 
-          img='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg'   />
+          img={require('./book.png')}   />
     </Carousel>
 );
   }
